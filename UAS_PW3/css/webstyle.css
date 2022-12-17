@@ -1,0 +1,306 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+section {
+  padding-top: 2.7rem;
+}
+
+.nav-link {
+  font-weight: 200;
+  color: red;
+  font-size: 16px;
+}
+.nav-link:hover {
+  background-color: red;
+  color: white;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 900;
+  color: #ff0000;
+}
+.navbar-brand:hover {
+  color: red;
+}
+
+.btn1 {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  color: red;
+  border: none;
+}
+.btn1:hover {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+}
+
+.dropdown-center {
+  width: 120px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.btn2 {
+  width: 120px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.btn2:hover {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(255, 98, 98);
+}
+
+.textlink {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+.textlink1 {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+.carousel-caption {
+  background-color: black 0.1;
+  background-size: 200px;
+  text-align: center;
+}
+.text-cap {
+  opacity: 1;
+}
+
+.blog-area {
+  height: auto;
+  width: 100%;
+}
+
+.single-blog .ready-btn {
+  text-decoration: none;
+  border: 1px solid #444;
+  border-radius: 30px;
+  color: #444;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
+
+.edit-data .back {
+  width: 100%;
+  height: 42px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+  margin: 10px 0 20px 0;
+}
+
+.btn-buy {
+  align-items: center;
+}
+
+.ready-btn2 {
+  text-decoration: none;
+  border: 1px solid #444;
+  border-radius: 30px;
+  color: #444;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
+
+.ready-btn:hover {
+  color: #fff;
+  background: #8a0000;
+  border: 1px solid #8a0000;
+  text-decoration: none;
+}
+.ready-btn2:hover {
+  color: #fff;
+  background: #8a0000;
+  border: 1px solid #8a0000;
+  text-decoration: none;
+}
+
+.section-headline h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: capitalize;
+}
+.section-headline h2::after {
+  border: 1px solid rgb(253, 0, 0);
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  background-color: black;
+}
+
+.section-headline2 h2 {
+  color: white;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.section-headline2 h2::after {
+  border: 1px solid rgb(253, 0, 0);
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+}
+
+.supporter-logo {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 160px;
+  cursor: pointer;
+}
+
+.supporter-logo:hover img {
+  transform: scale(1.2);
+}
+
+.supporter-logo img {
+  transition: 0.3s ease-in-out;
+}
+
+.single-team-member {
+  border: 1px solid #ddd;
+}
+.single-team-member img {
+  height: 320px;
+  width: 293px;
+  transition: 0.3s ease-in-out;
+}
+
+.team-content {
+  font-size: 17px;
+}
+.team-content a {
+  text-decoration: none;
+  color: black;
+}
+.team-content a:hover {
+  color: red;
+}
+.single-team-member img:hover {
+  transform: scale(1.1);
+}
+
+.col1 single-team-member:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  font-size: 14px;
+  background-color: #1f1f24;
+  padding: 50px 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer .credits a {
+  color: #fff;
+  text-decoration: none;
+}

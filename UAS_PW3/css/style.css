@@ -1,0 +1,78 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+section {
+  padding-top: 2.7rem;
+}
+.section-headline h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: capitalize;
+}
+.section-headline h2::after {
+  border: 1px solid rgb(253, 0, 0);
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+.opsi {
+  text-decoration: none;
+}
+
+.section-headline button {
+  width: 100%;
+  height: 42px;
+  color: white;
+  background: #000000;
+  border-radius: 8px;
+  border: none;
+}
+
+/* Edit Data Style */
+.edit-data label {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 10px;
+  color: #000000;
+}
+.label {
+  text-align: left;
+}
+
+.edit-data input {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+}
+
+.edit-data .update {
+  width: 100%;
+  height: 42px;
+  color: white;
+  background: #000000;
+  border-radius: 8px;
+  border: none;
+}
+.edit-data .back {
+  width: 100%;
+  height: 42px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+  margin: 10px 0 20px 0;
+}
+
+/*  */
